@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Learning</title>
+  <link href="land.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="javascript:;" id="btn1">Materi1</a></li>
+    <li><a href="javascript:;" id="btn2">Materi2</a></li>
+    <li class="dropdown" style="float : right;">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+
+<div class="row">
+  <div class="layout-kiri">
+    <div class="card" id="materi1">
+      <h2>STATISTIK, MASALAH SOLVING, DAN KEPUTUSAN MEMBUAT UNTUK PRAKTISAR</h2>
+      <h5>DISTRIBUSI HIPERGEOMETRIK, Dec 2, 2020</h5>
+      <img src="math.jpg" style="width : 100%;"/>
+      <h3>EKSPERIMEN PROBABILITAS HIPERGEOMTRIK</h3>
+      <p>1. Hasil pada setiap percobaan eksperimen diklasifikasikan ke dalam satu atau dua kategori yang saling eksklusif-berhasil atau gagal<br>
+      2. Variabel acak adalah jumlah keberhasilan dalam sejumlah percobaan tetap.<br>
+      3. Pengadilan tidak independen.<br>
+      4. Kami berasumsi bahwa kami mengambil sampel dari populasi terbatas tanpa penggantian dan. jadi, kemungkinan keberhasilan berubah untuk setiap percobaan.</p>
+
+      <h3>DISTRIBUSI HIPERGEOMETRIK</h3>
+      <p>1. Jika sampel dipilih dari populasi terbatas tanpa penggantian<br>
+        2. Jika ukuran sampel 𝑛 lebih dari 5% dari jumlah populasi tanpa penggantian 𝑁<br>
+        Kemudian, distribusi hipergeometrik digunakan untuk menentukan probabilitas sejumlah keberhasilan atau kegagalan tertentu. Ini sangat cocok jika ukuran populasinya kecil.</p>
+      <img src="rm1.jpg" style="widht: 100px; height : 50px;"/>
+      <p>Dimana,<br>
+        𝑁 adalah jumlah penduduk<br>
+        𝑆 adalah jumlah keberhasilan dalam populasi<br>
+        𝑥 adalah jumlah keberhasilan dalam sampel<br>
+        𝑛 adalah ukuran sampel atau jumlah uji coba<br>
+        𝐶 adalah simbol kombinasi<br><br>
+        <u>Contoh :</u><br>
+        Playtime Toys Inc. Mempekerjakan 50 orang di Departemen Perakitan. 40 karyawan tergabung dalam serikat pekerja dan 10 lainnya tidak. Lima karyawan dipilih secara acak untuk membentuk komite untuk bertemu dengan manajemen mengenai waktu mulai shift. Berapa probabilitas bahwa 4 dari 5 yang dipilih untuk komite menjadi anggota serikat?<br><br>
+        <u>Solusi :</u><br>
+        Populasi adalah 50. seorang karyawan hanya dapat dipilih satu kali untuk komite. Oleh karena itu, pengambilan sampel dilakukan tanpa penggantian.<br><br>
+        𝑁 adalah 50, jumlah karyawan.<br>
+        𝑆 adalah 40, jumlah karyawan serikat pekerja.<br>
+        𝑥 adalah 4, jumlah karyawan serikat pekerja yang dipilih.<br>
+        𝑛 adalah 5, jumlah karyawan yang dipilih. </p>
+      <img src="rm2.jpg" style="widht: 100px; height : 50px;"/>
+      <p>Dengan demikian, probabilitas untuk memilih 5 assmbly worker secara acak dari 50 pekerja dan menemukan 4 dari 5 adalah anggota serikat adalah 0,431.</p>
+
+      <h3>POISSON DISTRIBUTION </h3>
+      <p>Menjelaskan berapa kali beberapa peristiwa terjadi selama interval tertentu peristiwa per unit: Waktu, jarak, luas, atau volume.<br>
+        <b>DISTRIBUSI PROBABILITAS POISSON</b><br>
+        1. Variabel acak adalah berapa kali beberapa peristiwa terjadi selama interval yang ditentukan.<br>
+        2. Probabilitas acara sebanding dengan ukuran intervalnya.<br>
+        3. Interval tidak tumpang tindih dan independen.<br><br>
+        <u>Contoh :</u><br>
+        Maskapai hemat adalah maskapai penerbangan musiman yang mengoperasikan penerbangan dari Pantai Myrtle, Carolina Selatan ke berbagai kota di paling utara. Tujuannya termasuk bandara Boston, Pittsburgh, Buffalo, dan bandara LaGuardia dan JFK di New York City. Anggaran baru-baru ini mengkhawatirkan tentang jumlah tas yang hilang. Ann proston dari Departemen Analisis diminta untuk mempelajari masalah tersebut. Dia secara acak memilih sampel dari 500 penerbangan dan menemukan bahwa total 20 tas hilang pada penerbangan sampel.<br>
+        Berapa rata-rata jumlah bagasi yang hilang per penerbangan? Bagaimana kemungkinan tidak ada tas yang hilang dalam penerbangan? Berapa probabilitas setidaknya satu tas hilang?<br><br>
+        <u>Solusi:</u><br>
+        Berdasarkan informasi sampel, kami dapat memperkirakan jumlah rata-rata bagasi yang hilang per penerbangan. Ada 20 bagasi hilang dalam 500 penerbangan sehingga jumlah rata-rata bagasi yang hilang per penerbangan adalah 0,04 ditemukan pada 20/500.<br>
+        Probabilitas jumlah tas yang hilang adalah 0 adalah :</p>
+      <img src="rm3.jpg" style="widht: 100px; height : 50px;"/>
+        <p>Kemungkinan 1 atau lebih tas hilang adalah :</p>
+      <img src="rm4.jpg" style="widht: 100px; height : 50px;"/>
+    </div>
+
+    <div class="card" id="materi2" hidden>
+        <h2>STATISTIK, MASALAH SOLVING, DAN KEPUTUSAN MEMBUAT UNTUK PRAKTISAR</h2>
+        <h5>BINOMIUM, Dec 2, 2020</h5>
+        <img src="math.jpg" style="width : 100%;"/>
+        <h3>BINOMIUM</h3>
+        <p>Prosedur untuk Pendekatan Normal ke Distribusi Binomial :<br>
+          1. Periksa apakah perkiraan normal dapat digunakan.<br>
+          2. Temukan mean dan deviasi standar<br>
+          3. Tuliskan soal dengan menggunakan faktor koreksi kontinuitas, dan tunjukkan area yang sesuai di bawah kurva normal<br>
+          4. Temukan skor z yang sesuai<br>
+          5. Temukan solusinya</p>
+
+        <p>Hanya empat kasus yang mungkin muncul. Kasus-kasus tersebut adalah :<br>
+          1. Untuk probabilitas setidaknya x terjadi, gunakan area di atas 𝑥 - 0,5<br>
+          2. Untuk probabilitas lebih dari x terjadi, gunakan area di atas (𝑥 + 0,5)<br>
+          3. Untuk probabilitas munculnya x atau lebih kecil, gunakan area di bawah (𝑥 + 0,5)<br>
+          4. Untuk probabilitas yang lebih kecil dari x terjadi, gunakan area di bawah (𝑥 - 0,5)</p>
+
+        <p><u>Contoh :</u><br>
+          Misalkan manajemen Restoran Santoni Pizza menemukan bahwa 70% pelanggan barunya kembali untuk makan lagi. Untuk seminggu di mana 80 pelanggan baru (pertama kali) makan di Santoni's, berapa kemungkinan 60 atau lebih akan kembali untuk makan lagi?
+          <u>Solusi :</u><br>
+          Rata-rata = 𝜇 = 𝑛𝑝 = 80(0,70) = 56<br>
+          Simpangan baku : <br>
+          <img src="rm5.jpg" style="widht: 75px; height : 50px;"/>
+          <br>Kemudian, <br>
+          <img src="rm6.jpg" style="widht: 75px; height : 50px;"/>
+    </div>
+  </div>
+  <div class="layout-kanan">
+    <div class="card">
+      <center><h3>About Me</h3></center>
+
+    </div>
+    <div class="card">
+      <center><h3>Iklan</h3></center>
+    </div>
+    <div class="card">
+      <center>
+        <h3>Follow Me On Instagram</h3>
+        <img class="user" src="2.jpg"/>
+        <br>
+        <button class="button button1">Follow !</button>
+      </center>
+
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+<script src="jquery.min.js"></script>
+<script>
+
+   $(document).ready(function() {
+
+     $("#btn1").click(function() {
+       $("#materi1").show(1000);
+       $("#materi2").hide(1000);
+     })
+
+     $("#btn2").click(function() {
+       $("#materi1").hide(1000);
+       $("#materi2").show(1000);
+     })
+
+
+   });
+</script>
+</body>
+</html>
