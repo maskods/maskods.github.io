@@ -40,8 +40,8 @@ body {
 }
 
 .nav div.logo a {
-    text-decoration: none;
-    color: #;
+    font-family: Legends;
+    color: #fff;
     font-size: 2.5rem;
 }
 
@@ -104,7 +104,7 @@ body {
 .welcome-area .header-text h1 {
   font-family: Legends;
   font-weight: 900;
-  font-size: 52px;
+  font-size: 80px;
   line-height: 80px;
   letter-spacing: 1px;
   margin-bottom: 30px;
@@ -125,13 +125,14 @@ body {
 
 /* Layanan */
 #layanan {
-  top:10%;
   padding: 100px 0px;
+  background-color: #afc3ff;
   position: relative;
   z-index: 9;
 }
 
 .features-item {
+  background-color: #fff;
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
@@ -194,9 +195,23 @@ a.main-button:hover {
   background-color: #006666;
 }
 
+#materi1, #materi2, #materi3 {
+  padding: 100px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+.materi-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 60px 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+
+
 /* Kontak Menggunakan Bootstrap */
 #kontak {
-  top:10%;
   padding: 100px 0px;
   background-color: #fa9746;
   position: relative;

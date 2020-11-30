@@ -1,6 +1,8 @@
 <html>
   <head>
-    <title>O-Course</title>
+    <title>Fun Math</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <link href="style.css" type="text/css" rel="stylesheet"/>
 
@@ -9,8 +11,8 @@
       <!-- Menu -->
       <nav class="nav">
         <div class="container">
-            <div class="logo"">
-                <a href="#" style="font-family: Legends; color: #fff;">O-Course</a>
+            <div class="logo">
+                <a href="index.html">Fun math</a>
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
@@ -27,8 +29,8 @@
   			<div class="container">
   				<div class="row">
   					<div class="center-text col-lg-6 col-md-12 col-sm-12 col-xs-12">
-  						<h1 class="judul-head">Welcome to O-Course</h1>
-  						<p>O-Course merupakan penyedia layanan yang bergerak di bidang pendidikan dengan menyediakan lebih dari 1000 materi pembelajaran yang bisa diakses kapan saja dan dimana saja.</p>
+  						<h1>Welcome to Fun Math</h1>
+  						<p>Fun Math merupakan penyedia layanan yang bergerak di bidang pendidikan dengan menyediakan lebih dari 1000 materi pembelajaran yang bisa diakses kapan saja dan dimana saja.</p>
   						<a href="#layanan" class="main-button">Info Lebih Lanjut</a>
   					</div>
   				</div>
@@ -43,28 +45,28 @@
   			<div class="row">
   				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
   					<div class="features-item">
-  							<h1 class="judul">Terpercaya</h1>
+  							<h1 class="judul">Statistik</h1>
   							<p>O-Course memiliki lebih dari 2000 pengguna dari berbagai negara.</p>
-  							<a href="#kontak" class="main-button">
-  								Info Lebih Lanjut
+  							<a href="materi1.html" class="main-button">
+  								Lanjut Membaca
   							</a>
   						</div>
   					</div>
   				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
   					<div class="features-item">
-  							<h1 class="judul">User Interface</h1>
+  							<h1 class="judul">Logaritma</h1>
   							<p>O-Course memiliki tampilan yang sangat mudah dimengerti oleh siapapun.</p>
-  							<a href="#kontak" class="main-button">
-  								Info Lebih Lanjut
+  							<a href="materi2.html" class="main-button">
+  								Lanjut Membacat
   							</a>
   					</div>
   				</div>
   				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
   					<div class="features-item">
-  							<h1 class="judul">Mudah</h1>
+  							<h1 class="judul">Limit Fungsi</h1>
   							<p>O-Course sangat mudah untuk dipahami oleh siapapun.</p>
-  							<a href="#kontak" class="main-button">
-  								Info Lebih Lanjut
+  							<a href="materi3.html" class="main-button">
+  								Lanjut Membaca
   							</a>
   					</div>
   				</div>
@@ -112,8 +114,25 @@
           </div>
         </div>
       </section>
-
+      <script src="jquery.min.js"></script>
       <script>
+
+
+         $(document).ready(function() {
+
+           $("#btn1").click(function() {
+             $("#materi1").show(1000);
+             $("#materi2").hide(1000);
+           })
+
+           $("#btn2").click(function() {
+             $("#materi1").hide(1000);
+             $("#materi2").show(1000);
+           })
+
+
+         });
+
         function result(){
           alert('Pesan berhasil dikirim !');
         }

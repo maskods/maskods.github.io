@@ -1,27 +1,75 @@
-<div class="card">
-    <h2>STATISTIK, MASALAH SOLVING, DAN KEPUTUSAN MEMBUAT UNTUK PRAKTISAR</h2>
-    <h5>BINOMIUM, Dec 2, 2020</h5>
-    <img src="math.jpg" style="width : 100%;"/>
-    <h3>BINOMIUM</h3>
-    <p>Prosedur untuk Pendekatan Normal ke Distribusi Binomial :<br>
-      1. Periksa apakah perkiraan normal dapat digunakan.<br>
-      2. Temukan mean dan deviasi standar<br>
-      3. Tuliskan soal dengan menggunakan faktor koreksi kontinuitas, dan tunjukkan area yang sesuai di bawah kurva normal<br>
-      4. Temukan skor z yang sesuai<br>
-      5. Temukan solusinya</p>
+<html>
+  <head>
+    <title>Fun Math</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
 
-    <p>Hanya empat kasus yang mungkin muncul. Kasus-kasus tersebut adalah :<br>
-      1. Untuk probabilitas setidaknya x terjadi, gunakan area di atas 𝑥 - 0,5<br>
-      2. Untuk probabilitas lebih dari x terjadi, gunakan area di atas (𝑥 + 0,5)<br>
-      3. Untuk probabilitas munculnya x atau lebih kecil, gunakan area di bawah (𝑥 + 0,5)<br>
-      4. Untuk probabilitas yang lebih kecil dari x terjadi, gunakan area di bawah (𝑥 - 0,5)</p>
+  </head>
+    <body style="background-color: #afc3ff;">
+      <!-- Menu -->
+      <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Fun math</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Home</a></li>
 
-    <p><u>Contoh :</u><br>
-      Misalkan manajemen Restoran Santoni Pizza menemukan bahwa 70% pelanggan barunya kembali untuk makan lagi. Untuk seminggu di mana 80 pelanggan baru (pertama kali) makan di Santoni's, berapa kemungkinan 60 atau lebih akan kembali untuk makan lagi?
-      <u>Solusi :</u><br>
-      Rata-rata = 𝜇 = 𝑛𝑝 = 80(0,70) = 56<br>
-      Simpangan baku : <br>
-      <img src="rm5.jpg" style="widht: 75px; height : 50px;"/>
-      <br>Kemudian, <br>
-      <img src="rm6.jpg" style="widht: 75px; height : 50px;"/>
-</div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" id="materi2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="materi-item">
+              <h1 class="judul">Pengertian Logaritma</b></h1>
+              <p><span>Logaritma adalah suatu operasi invers atau kebalikan dari perpangkatan.</span></p>
+              <p><span>Jika diketahui suatu perpangkatan&nbsp;</span></p>
+              <p><a href="https://www.codecogs.com/eqnedit.php?latex=a^{c}=b" rel="noopener noreferrer" target="_blank"><img class="aligncenter" title="a^{c}=b" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAANCAYAAADv5u30AAABoklEQVRIS8WWgYmEMBBFYwdiCWIFiyWIFYglLFawWIJYgViCWIFYgliBWILYQZYXNkE55dSTPUFYQybzJ/P/n7XEiSfLMmnbtoqI41g4jmOdCL+8dRgGmaapqOtaDMMgPM8zeQ8DiKJIAjqOY+v1eskgCEQYhofjL6P/BHZdJ33f52uV8xAAggE/juOh/X8FuxVfFIWkA23bni+A4L7vRVmW/1YADKADaZqeL6CqKtm2rSlgmibZdd1XKWTbtqyq6kfOVTWIlPa5rqteBKsFA+9ZcxxHi/hr3UDEnucJCuAZx1HhQ48GRBAEMooikSSJWqNlbOz7/hLQ5/Mpp2k6JAfA5Hm+mwcK40J0XV8oHQGfCtoSCAX8dvAhdDds2sKiKaUK4CPLMnP7em2LczfgOX3EDv+VDi3Nr+WA2PPc05lvCMAwProzFMNUsHVmgrUFFjHjOnhu0zTyysC6SwNccBiGqxm0tFRDoXme1W8qZsryIiz0oYV9w4VeOsJ1XQSr8HGhCFqbi1lkygFa22hZluLxeHz1P89edYCGEQwynGc5zN6tCvdnqm7UpAAAAABJRU5ErkJggg=="></a><span>maka bentuk tersebut dapat dituliskan dalam bentuk logaritma menjadi</span></p>
+              <p><a href="https://www.zenius.net/blog/wp-content/uploads/2020/02/Log-1.png" ><img class="aligncenter size-full wp-image-23424" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAAAVCAYAAABVLkwZAAAD0ElEQVRoQ+2Zv08bMRTHv9kyMoJEpfYPqNQyNUgsJ3VoOjWnViKoE1vZIraEDPmxUaZmqtotiQQ6umUMAxLXKQxdkW4oEhk6MHTIdtXZvuTsXM6+U3I9kNmCHPv5+/34+T0n57quC/2nFVihAjkN2QrV1VMTBTRkGoSVK6AhW7nEegEN2ZIZmNxPkF/Lk1nHfRMbP0zcnZaxvuR1HtJ0CpDZaOe2UQPQsl1UXz2k7aUX6+TGxuDyCsOzEYzvXWxfmNgonwPvuylBll2fFCAjZxK9D9/w7LSKQnq+LX0lu9kGjlawh9sBBn+KKL4A7HobaNA10s9k2fRJDbLbHswK0HnIaf9nG7kCcOUuHzLn6yHsN8cob17jc2EAw67i5f+ALKM+KUHmncgDdGDtZryy8ER+sodzPweyq8pp5rBdDyTGxhXcowJs4f+0HPCywQb2zgCwcSQjRVx9dtOE89FC8e8AndN77FeKyK+tYTJXkwXmJuG0BOhnVx6XxlkcstSeVZ8UIPOEOQAqJqwCM1Bx06KJcyLJ6hWSfbxqMMwQcTZqoPXujh4GBtwWqyMpKFszU4XMRmL95ddPDIbnFEZZEe/NbVwUYZ28xfWnGtD4gvLTvHBdCvGREsSD2QdNWJPFjx7bj4wwMp+iT5yuYROX0P1toby5aFH+MMhqdTlkfnbwgSABjiRBSBWRDqCA+gZ4mxrCUL3qAiL6AsxBNo0gkF2m0MeDbNFmuJos7LrmDgI1DtPmaj6GSNHS8olp6+vq+TR8Hd0QSiGbS8FkMxbMSNKlDEUPSFo/+UKTTAvOtDDIKMj01BqXweeG5UMGMZMSBShYI5at+EZBhC5asnR8iheTH7EEMpaCTwKpMwYAya5L8VpRBVYUgP8sQiZ2fvzn5UO2LmQAuqvwmP0CoRT3qlT1KeF1mbRbjoZsrltJCoAqKGHCq36XzwoQTZ0ejn04fQcGjgM1GoMKszctvkYL1CCyOjIQLg+2WIOJTxwhB1p16yn5RDTBrE5VDS8SMjEF88KrLhF3nAALK5CdivwhmMucjRZa9Rp5RCYZYWfIOk9W1CLYiZbQagC1uteXsjqQ61Rb6PZG2Ivxej/tSLmmReguBWDDM7+sCKewBrv/Vfkkzkv2eHM4bY4WOa1wXbJ23jcrjWcMLp3LRY6LcTbHj9FrDmEciT9BjdHrOyjvRj2D8/CqX7NxleC7StV1pIV/3DD0+GQKLKp3xv02hjvViOeEZOul+S0NWZpqR64lPtTSwarZIjPbCAlEQ5Zldx5JbBqyR2JklrehIcuyO48ktn/0Wx7vPD4f4gAAAABJRU5ErkJggg==" alt="" width="153" height="21"></a></p>
+              <p><span>dengan&nbsp;</span><strong>a &gt; 0</strong><span>&nbsp;dan&nbsp;</span><strong>a &ne; 1</strong><span>.</span></p>
+              <p><span>Keterangan:</span></p>
+              <p><i><span>a</span></i><span>&nbsp;= basis logaritma</span></p>
+              <p><i><span>b</span></i><span>&nbsp;= bilangan yang dicari nilai logaritmanya (numerus)</span></p>
+              <p><i><span>c</span></i><span>&nbsp;= besar pangkat / nilai logaritma</span></p>
+              <p><span>Sebagai contoh, misalkan diberikan &sup2;</span><span>log 8 =&nbsp;<em >c</em> maka&nbsp;<em >c</em> = 3, karena 2&sup3;</span><span>= 8.</span></p>
+              <p><span>Sehingga dapat disimpulkan bahwa logaritma merupakan suatu operasi kebalikan dari perpangkatan, yaitu mencari nilai yang menjadi pangkat dari suatu bilangan.</span></p>
+              <p><span>Biar lebih paham lagi, perhatikan beberapa contoh dibawah ini.</span></p>
+              <table class="tg" style='box-sizing: inherit; margin: 0px 0px 2em; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; font-size: 15px; line-height: inherit; font-family: "Open Sans"; max-width: 100%; border-collapse: collapse; border-spacing: 0px; vertical-align: top; color: rgb(2, 2, 2); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 253, 255); text-decoration-style: initial; text-decoration-color: initial;'>
+                <thead>
+                  <tr style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top;">
+                    <th class="tg-bwna" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit;">Bentuk Perpangkatan</span></th>
+                    <th class="tg-0pky" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font-style: inherit; font-variant: inherit; font-weight: 600; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit;">Bentuk Logaritma</span></th>
+                  </tr>
+                </thead>
+                <tbody style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit;">
+                  <tr style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top;">
+                    <td class="tg-0pky" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font: inherit; background-color: rgb(246, 244, 246);"><a href="https://www.codecogs.com/eqnedit.php?latex=3^{4}=81" rel="noopener noreferrer" style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; color: rgb(0, 171, 214); text-decoration: none;" target="_blank"><img title="3^{4}=81" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAAQCAYAAACsu9d7AAACH0lEQVRIS92WjYmDQBCFNx2IJQQrCClBUoFYglhBsASxArEEsQKxBLGCYAmSDvb4BlfWJF5iyA93CxfIxR3fm/fmZ6OeOEEQ6KqqNk9c/cqV1UDTNNVlWaqu61bf/QpDpdQqoKfTSXddp9I0/b8k8zzXYRgq3/f/JkkIYKfz+azatlX7/V4lSTIpXZalhhznGyR5P7hc11XDMAi+MAyvnFjXtU6SRBVFwTPyu3wcj0e93W5VHMf2JY0tDVFeQtBhGITsJ2sS4OA8HA4TPnoDmA1RSqmqKhGABIxCzUlSa03TTEEcxxEydFECOo4jKqI05Pm7SMrb+grdHGVc153wkexRsVt9RVSfKXmJjgDYIs/zKyJt2+ooij6qJCTBaI8tnIVtFxJ9n+TSmMASWZYpRsgnlSSxWBB7knhO0zQqy7Kl6bBMkuaDbTlFUawaL5duiKJIMv3IAfwvgCUECYYo5bLb7e456b6SkKWIUcyug0cAv+MZU39BEECOZiiq1nWtPM97ribHMSFKfLKLLiXI933ZskzCTYdH1b7vHyNJYZMd0414GXajo0H0m2piU7At7MoixA18c7sSxPM8saY9XMclfJqla234qpoEXxzHs/FmsKCwPfYsjNc1yTJAtmw74Hn+Z289a4m+6vlbTqPj0mEX8Gnq1SwPsw1ilF62BXbUW2vTq4CvjcNYM/i4a287fKdOGWt932Nt6cAsM/D4AbMFgoMzL/fAAAAAAElFTkSuQmCC" style="box-sizing: inherit; padding: 0px; border: none; font: inherit; height: auto; max-width: 100%;"></a></td>
+                    <td class="tg-0pky" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font: inherit; background-color: rgb(246, 244, 246);">&sup3;log 81 = 4</td>
+                  </tr>
+                  <tr style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top;">
+                    <td class="tg-0pky" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font: inherit;"><a href="https://www.codecogs.com/eqnedit.php?latex=3^{-4}=\frac{1}{81}" rel="noopener noreferrer" style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; color: rgb(0, 171, 214); text-decoration: none;" target="_blank"><img title="3^{-4}=\frac{1}{81}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAlCAYAAAD/Tp9wAAAClUlEQVRoQ+2Z/4mzMByH0w3EEYoTlI4gnUAcQZygOII4gTiCdAJxBHGC4gjSDTyecCl5++oV26sXooH+YWs1efL5/sxOrGxUVTUkSSKKohDH43E3tfzJH2zjdb1eh8vlInzfB4hommYDM7LJwwZmXPobmAmXsIHZwMyLFptijFRMEASESBNTgr9TTJqmQ1mWom3bDYySLclU27YiTVNjwVRVJU6n07KZb57nQxiGMss0RTF93w9sVNd1ggz4cDjI+THPsdLgTozFsOO3202lyyJJktlmUJblwAsZJoGZF7SEkAs/n8/Dfr8XcRzrICRhBQef0ff96PNd173fB5gwDHfskBVg8Al1Xd/BOI4jFzYnqgDPcRwJD+UBls8D8Lmb9yf3j5oKu40K8jx/eVFN0wxRFBnjY+bSHQXzbqglKmVZJgjXVigGB4xJMYqimO145+4K90dRNOm7Hp+HH8yybJF5jb4EQIQ0dtx13UUm8grUT/5nctG+78udNCUPmQFBph3vDgmGmoY+qJ7oIHH6osBZo2p2OErP86TZkH8o0t8FIJcfNSWjfQwJHopRyiBc4+j47pXs910Zm/D/uxpUZkv+QqOYGkJXkAmTXXIOHzWTJRfy2++yFgw1G8rHAgggnCWNWcDUAZyVYFgsCtL7LbgK/KaC8+wAzkowRFRSDT3NIKB8H82Orfm/Vqe1YFCM3hnAtDCpiUp/HWCo7PEpmA4dAkZd1z/VWesAAwh8CHDoC9HGfFLarAOM8idBEABEJqqohwa453nr9TEUwHpnQLVZUU/XdesEgwmhkImWrHTAI0Wx/aYEmDiO/+lfq6wYJel9bS1bth/MVBuFSEVkmiiKh8cDOCvzGODoRTHXetbL9bMDuC9seM004OYUlQAAAABJRU5ErkJggg==" style="box-sizing: inherit; padding: 0px; border: none; font: inherit; height: auto; max-width: 100%;"></a></td>
+                    <td class="tg-0pky" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font: inherit;">&sup3;log&nbsp;<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{81}&space;=&space;-4" rel="noopener noreferrer" style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; color: rgb(0, 171, 214); text-decoration: none;" target="_blank"><img title="\frac{1}{81} = -4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAAAlCAYAAAAZZ1Q0AAACJklEQVRoQ+2a4YmrQBSFbzoIliCpIKQESQViCWIJliBWIJYgViApQawgWIKkg1m+IePOSyS7C+/lLTOTP2IcSebz3DMnd7KTF69hGFRZltK2rZxOp92rsS5c25zg9XpVfd9LkiRAkHEc/YXx8JRVgPFJJMCw1BFgBBjbS0JQRlBGUMaXcSmUiV0mwzDI+Xz2M4Euy6KqqpJ5noUkejwedRrNsszpJOr8035lAuM4qq7rpK5rzcFrGHEcKxTftq3fMJqmUZfLRaIo8hsG5UFZ0Jq4H/1VBqooimKX57mB8l4YfPCyLF+GGgbEcbya2rdu+MEgA4Jb/huMH3zffzbUlIfp2m3B0FL5C6+3rUy0I+u6/tZXTtNUKAkG26rwWhmAmKZJ9vv9CpFAybkJlG97mr/FM2w5JUmi8CfvcwZQAgwRuv06hpuckec5K4vfcfzRgVfP6LpO9y2Ip+QB9kuyLHvyFJc3lvRkmSBHu2dRVZU2FwPEh40lDSNNU0X9RFG0KoGexn1rcWvFcbL7tcIASt/3f5QN5WICy0N9uQsDd8UjKIumafS8+Xlrmh4bUc9dGEwWTwDI7XbTbb5pml4FMndhGH8gxxNZ8QpUQiP4cDj45RkkMUKIMVDgkNdRyTzP/sCgPFCCbZ6WR+gehL3K3K+5WSbAKIoCw3xSAIrZel9E3IRhcgbqsP+qxArDilKW5WaZuLixtE6UxHkvCV0Jdvrk3IeNpQ+xrW0rw3pYggAAAABJRU5ErkJggg==" style="box-sizing: inherit; padding: 0px; border: none; font: inherit; height: auto; max-width: 100%;"></a></td>
+                  </tr>
+                  <tr style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top;">
+                    <td class="tg-0pky" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font: inherit; background-color: rgb(246, 244, 246);"><a href="https://www.codecogs.com/eqnedit.php?latex=4^{\frac{3}{2}}=8" rel="noopener noreferrer" style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; color: rgb(0, 171, 214); text-decoration: none;" target="_blank"><img title="4^{\frac{3}{2}}=8" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAYAAADC1B7dAAACJElEQVRYR9WXi4mDQBRFnx2ElCCpIFiCpAJJCWIFwRIkFYgliBWIJYgVBEsQO3A5w45oYjaOqGQHQn7jm3vv+44lhiuO4862bSmKQq7XqziOYxma2HS7EZimabooiuR+v1tpmnaQSpLEyMambERkERiI+b4vYRj+bw9pdbV3brebnE6nRaJs5anFYMqyVF6qqmqxjS1IGYHBM3VdE2rW4/HoHMeRtm2NbGxBYmjTCAy5k6apUOWyLBPP8+RyuRjZ+CpCW4NZw/6kuuQHnqA8Px3SvTl0Vy8R+mVZyvF4lKZpqLT0RIVhEoht253rul/XYwCc57kSdRjqURSpZg+pF0JMAjRM2E81TdTBIApBeu8c8jyvS5IEfD12cpueCN4RIUINsDzw+/7yP0SCILAwgqvrut413CAEtizL+nMRmdAD1wgM3uFH3/c1sbdgIY8qRVHsSohzEZIQi+NYCU9E6XzvwWgybJhDCKWY6+ZMCthDwTkLoBPFaPTooAfK+XweNXdFSIeanpw/EdIT9975A1adL/TAqqrUPIkIeZ4rcRWhoXc+eWhYZYhdXS7nqL/GHtd1VUvRRQGCFKe2bVU+W5CB6eFw6M9jCuA7G4d3Hu1qFMEA7h4m5xqA/7LB+XjkzZkqrCcTGhUAvdZdZ60cglAQBJOFCMwUqF0Irek5itHzPYwaQKVjaH7pM8Sn7kNcD3jNqWRrgv5ki8mA8KL5s/SUwOcfdD1a7dOoCfIAAAAASUVORK5CYII=" style="box-sizing: inherit; padding: 0px; border: none; font: inherit; height: auto; max-width: 100%;"></a></td>
+                    <td class="tg-0pky" style="box-sizing: inherit; margin: 0px; padding: 0.5em; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(233, 231, 233); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; font: inherit; background-color: rgb(246, 244, 246);"><a href="https://www.codecogs.com/eqnedit.php?latex=^{4}log&space;8=\frac{3}{2}" rel="noopener noreferrer" style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font: inherit; color: rgb(0, 171, 214); text-decoration: none;" target="_blank"><img title="^{4}log 8=\frac{3}{2}" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAlCAYAAAAKsBTAAAAD1klEQVRoQ+2ajaniQBRGxw4kJUgqEEsIViCWEFKBpISQCiQlBCsQSxArEEsQO8jjzHrDZF5+ZJ1I1p2B3QcxTmZOvnvvd+e9mfKjQWC/31dceDwe6nw+q9VqpdI0nXFN/+fHHwK73a5aLBYqSRKTS5VlmQbmYRlKAdblclGn06nmMp/PqyiK1OFw8LD6oup+v1dBEKj9fq/V5pXVQyvLsqosS3W5XHzO6uJEkiccGUVR1ILyyupRFtAOh4NCXUEQ+DAccgJRFFX3+12H4i9lbTYbaP6XimPvaZrirer9x3FcFUWhANaAYie0Ierf9Pn1eq3CMNQht91uay5P8WhPWl/kZpIaBkyy/zfBeGUv+CyURX7ifqwDJpVrDVNKMttutwoDZsNiEhIdn5nV4ZUF/Gv3EF2EHP6KdgcmojRNsCxL7VIZbbC4vlwuNXVToq5A8HwWxgJZKP3YGM95d701LBaH7LpgKaWEuNPkfzwedeO6Xq/reXm7yH9qwGYsbD6fa+h02uQs/pnNJBtKkkTdbjenoHgmCZRqI3lCcgUqnlrINzZ/Pp+rOI5bcxYgx1g8sABk2hXCknC0uv93o+jt7zeqYZ7nunTayiJfAbFt8Wzsdrsp1MlPEqLpU0QpzEloMbiHgZp4QeQoPqNhZZxOJ5XnuXMVv0vr1QVV1+tVhWHYuB/D9iyt+jr2g40/Ho/GSwAOAIAj5dh8Icb3KCQvWReejfpeGazRBfxBWOQrNmsCYIFYDXJNiyfTlU3U1VFFa/jAIz9tNhvm0p6GzR2Px18v5xUwY94zCAuPRXjZLRCHYna4yvmPwAL0er1m/fVzbPj0XtKoSshSkcmRYxSUHpg6d/aNQVht+UpaAzs0URtVU+C0tU8mfOZBSR296ChWZQjIW7DwV0ARa0F4SVK2z/ABS8jKAT95he+ZVdSEDyzgmse4slgU13ZdPp9czpKwAspTNbUSF4uFDh/JTXxOErctAPfINVGeqci2Tp+XwVwC/R01uPzuYBjKbzxIuqbLRhUkeKqfVKU2ayHfp5Uh95Hn7GJh9mNsboruvZF4Xb6Brrm6isUnnu3iGYPKcvEQmYPQRVlT6/nMPYrKn9VYYcYbpw4ugchcdiXE6U/9rAzlA0fM98d+FQYckjSeiZxGvnLhosd4sabyzaLFdaou+8DzfTQMx9yoi7nbjDZqo2duHCu7eNg3ztH7251v3PDf7kk6FWnffBj2kLRbPQ+rA1bbnx95WC2w5A/a7I7Ew7JgcYSEITWNs/TFHpYBiwaefpeDSBmAw2dxcuJhGbDwWcCxB64eWD8EUL8MqJfKsAAAAABJRU5ErkJggg==" style="box-sizing: inherit; padding: 0px; border: none; font: inherit; height: auto; max-width: 100%;"></a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><span>Jika nilai&nbsp;</span><span><em>a&nbsp;</em>= 10</span><span>, biasanya 10 tidak dituliskan sehingga menjadi&nbsp;</span><span>log</span> <em><span>b</span></em> <span>=&nbsp;<em>c</em></span><span>.</span></p>
+              <p><span>Sebagai contoh, jika&nbsp;</span><span>10&sup3;&nbsp;</span><span >= 1000</span><span>&nbsp;maka dalam bentuk logaritma menjadi&nbsp;</span><span >1000</span> <span>= 3</span></p>
+              <p><span>Selain itu, logaritma memiliki sifat-sifat yang wajib kita pahami. Karena untuk menyelesaikan soal-soal logaritma kita membutuhkan pemahaman sifat-sifat logaritma tersebut. Apa saja sifat-sifat logaritma?&nbsp;</span><i><span>Yuk</span></i><span>, perhatikan gambar berikut.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+</body>
+</html>

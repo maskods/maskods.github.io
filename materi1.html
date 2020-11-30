@@ -1,48 +1,71 @@
-<div class="card">
-  <h2>STATISTIK, MASALAH SOLVING, DAN KEPUTUSAN MEMBUAT UNTUK PRAKTISAR</h2>
-  <h5>DISTRIBUSI HIPERGEOMETRIK, Dec 2, 2020</h5>
-  <img src="math.jpg" style="width : 100%;"/>
-  <h3>EKSPERIMEN PROBABILITAS HIPERGEOMTRIK</h3>
-  <p>1. Hasil pada setiap percobaan eksperimen diklasifikasikan ke dalam satu atau dua kategori yang saling eksklusif-berhasil atau gagal<br>
-  2. Variabel acak adalah jumlah keberhasilan dalam sejumlah percobaan tetap.<br>
-  3. Pengadilan tidak independen.<br>
-  4. Kami berasumsi bahwa kami mengambil sampel dari populasi terbatas tanpa penggantian dan. jadi, kemungkinan keberhasilan berubah untuk setiap percobaan.</p>
+<html>
+  <head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
 
-  <h3>DISTRIBUSI HIPERGEOMETRIK</h3>
-  <p>1. Jika sampel dipilih dari populasi terbatas tanpa penggantian<br>
-    2. Jika ukuran sampel 𝑛 lebih dari 5% dari jumlah populasi tanpa penggantian 𝑁<br>
-    Kemudian, distribusi hipergeometrik digunakan untuk menentukan probabilitas sejumlah keberhasilan atau kegagalan tertentu. Ini sangat cocok jika ukuran populasinya kecil.</p>
-  <img src="rm1.jpg" style="widht: 100px; height : 50px;"/>
-  <p>Dimana,<br>
-    𝑁 adalah jumlah penduduk<br>
-    𝑆 adalah jumlah keberhasilan dalam populasi<br>
-    𝑥 adalah jumlah keberhasilan dalam sampel<br>
-    𝑛 adalah ukuran sampel atau jumlah uji coba<br>
-    𝐶 adalah simbol kombinasi<br><br>
-    <u>Contoh :</u><br>
-    Playtime Toys Inc. Mempekerjakan 50 orang di Departemen Perakitan. 40 karyawan tergabung dalam serikat pekerja dan 10 lainnya tidak. Lima karyawan dipilih secara acak untuk membentuk komite untuk bertemu dengan manajemen mengenai waktu mulai shift. Berapa probabilitas bahwa 4 dari 5 yang dipilih untuk komite menjadi anggota serikat?<br><br>
-    <u>Solusi :</u><br>
-    Populasi adalah 50. seorang karyawan hanya dapat dipilih satu kali untuk komite. Oleh karena itu, pengambilan sampel dilakukan tanpa penggantian.<br><br>
-    𝑁 adalah 50, jumlah karyawan.<br>
-    𝑆 adalah 40, jumlah karyawan serikat pekerja.<br>
-    𝑥 adalah 4, jumlah karyawan serikat pekerja yang dipilih.<br>
-    𝑛 adalah 5, jumlah karyawan yang dipilih. </p>
-  <img src="rm2.jpg" style="widht: 100px; height : 50px;"/>
-  <p>Dengan demikian, probabilitas untuk memilih 5 assmbly worker secara acak dari 50 pekerja dan menemukan 4 dari 5 adalah anggota serikat adalah 0,431.</p>
+  </head>
+    <body style="background-color: #afc3ff;">
+      <!-- Menu -->
+      <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Fun math</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Home</a></li>
 
-  <h3>POISSON DISTRIBUTION </h3>
-  <p>Menjelaskan berapa kali beberapa peristiwa terjadi selama interval tertentu peristiwa per unit: Waktu, jarak, luas, atau volume.<br>
-    <b>DISTRIBUSI PROBABILITAS POISSON</b><br>
-    1. Variabel acak adalah berapa kali beberapa peristiwa terjadi selama interval yang ditentukan.<br>
-    2. Probabilitas acara sebanding dengan ukuran intervalnya.<br>
-    3. Interval tidak tumpang tindih dan independen.<br><br>
-    <u>Contoh :</u><br>
-    Maskapai hemat adalah maskapai penerbangan musiman yang mengoperasikan penerbangan dari Pantai Myrtle, Carolina Selatan ke berbagai kota di paling utara. Tujuannya termasuk bandara Boston, Pittsburgh, Buffalo, dan bandara LaGuardia dan JFK di New York City. Anggaran baru-baru ini mengkhawatirkan tentang jumlah tas yang hilang. Ann proston dari Departemen Analisis diminta untuk mempelajari masalah tersebut. Dia secara acak memilih sampel dari 500 penerbangan dan menemukan bahwa total 20 tas hilang pada penerbangan sampel.<br>
-    Berapa rata-rata jumlah bagasi yang hilang per penerbangan? Bagaimana kemungkinan tidak ada tas yang hilang dalam penerbangan? Berapa probabilitas setidaknya satu tas hilang?<br><br>
-    <u>Solusi:</u><br>
-    Berdasarkan informasi sampel, kami dapat memperkirakan jumlah rata-rata bagasi yang hilang per penerbangan. Ada 20 bagasi hilang dalam 500 penerbangan sehingga jumlah rata-rata bagasi yang hilang per penerbangan adalah 0,04 ditemukan pada 20/500.<br>
-    Probabilitas jumlah tas yang hilang adalah 0 adalah :</p>
-  <img src="rm3.jpg" style="widht: 100px; height : 50px;"/>
-    <p>Kemungkinan 1 atau lebih tas hilang adalah :</p>
-  <img src="rm4.jpg" style="widht: 100px; height : 50px;"/>
-</div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" id="materi1">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="materi-item">
+  							<h1 class="judul" style="text-align: center;">Statistik</h1>
+                <p>statistik adalah seperangkat metode dan aturan mengenai pengumpulan, analisis, pemrosesan, dan interpretasi data dari angka-angka yang menjelaskan data atau pengamatan.</p>
+                <p>Secara etimologis kata &ldquo;statistik&rdquo; berasal dari bahasa Latin, yaitu &ldquo;status&rdquo; yang berarti negara atau terkait dengan konstitusionalitas.</p>
+                <p>Secara umum statistik banyak digunakan dalam studi di berbagai bidang, seperti ekonomi, bisnis, manufaktur, pemasaran, dan lainnya. Dengan statistik itu akan mendapatkan kesimpulan dan memfasilitasi proses pengambilan keputusan.</p>
+                <p><span>Statistik memiliki dua fungsi utama yang sangat penting untuk kegiatan penelitian. Fungsi statistik adalah sebagai berikut;</span>&nbsp;</p>
+                <h3>1. Fungsi Deskriptif</h3>
+                <p>Ini adalah fungsi statistik untuk menggambarkan, menjelaskan data dan peristiwa, yang dikumpulkan melalui proses penelitian dan investigasi yang belum menggeneralisasi atau menarik kesimpulan tentang populasi yang diteliti.</p>
+                <h3>2. Fungsi Inferensial</h3>
+                <p>Ini adalah fungsi statistik untuk memprediksi dan mengendalikan seluruh populasi berdasarkan data, gejala, dan peristiwa dalam proses penelitian. Fungsi ini dimulai dengan membuat estimasi dan hipotesis.</p>
+                <p><br></p>
+                <p>Setidaknya ada lima tujuan utama dari statistik. Tujuan statistik adalah sebagai berikut;</p>
+                <ul>
+                  <li>Untuk membuat deskripsi atau menjelaskan data tentang populasi yang sedang diselidiki.</li>
+                  <li>Untuk membantu membuat estimasi nilai yang tidak diketahui berdasarkan data yang dianalisis.</li>
+                  <li>Untuk membuat perkiraan konsekuensi dari hipotesis yang diterima. Estimasi ini nantinya akan digunakan sebagai dasar untuk pengambilan keputusan.</li>
+                  <li>Untuk mengurangi jumlah populasi besar dalam ukuran yang lebih kecil agar lebih mudah dipahami.</li>
+                </ul>
+                <br>
+                <p>Statistik dapat dibagi menjadi beberapa jenis berdasarkan kriteria tertentu. Jenis statistik adalah sebagai berikut:</p>
+                <h3>1. Berdasarkan Orientasi Pembahasan</h3>
+                <ul>
+                  <li><strong>Statistik matematika :&nbsp;</strong>statistik yang lebih memahami pemahaman model, rumus statistik matematika-teoritis, penurunan konseptual. Misalnya, tes normalitas, analisis regresi, kesalahan, dan lainnya.</li>
+                  <li><strong>Statistik terapan :</strong> statistik yang lebih fokus pada pemahaman konsep, teknik statistik, dan penerapannya dalam disiplin ilmu tertentu.</li>
+                </ul>
+                <h3>2. Berdasarkan Fase dan Tujuan Analisis</h3>
+                <ul>
+                  <li><strong>Statistik deskriptif :</strong> statistik yang berkaitan dengan pengumpulan pemrosesan, analisis, dan penyajian data tanpa kesimpulan umum. Bentuk statistik ini umumnya dalam bentuk tabel, grafik, diagram, mode, dan sebagainya.</li>
+                  <li><strong>Statistik inferensial :</strong> statistik yang prosesnya memungkinkan kesimpulan umum untuk diambil pada data yang sedang diproses.</li>
+                </ul>
+                <h3>3. Berdasarkan Asumsi Distribusi Populasi Data</h3>
+                <ul>
+                  <li><strong>Statistik parametik :</strong> statistik berdasarkan model distribusi normal.</li>
+                  <li><strong>Statistik non-parametrik :</strong> statistik yang dilakukan dengan metode distribusi gratis atau tidak berdasarkan model distribusi normal.</li>
+                </ul>
+              </div>
+  					</div>
+          </div>
+  			</div>
+  	</section>
+    </body>
+    <html>
